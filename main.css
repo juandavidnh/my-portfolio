@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-nav{
+    height: 64px;
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+
+}
+
+.main-nav-el{
+    display: none;
+    
+}
+
+.hamburger{
+    font-size: 25px;
+}
+
+main{
+    padding-top: 64px;
+}
+
+header{
+    padding: 25% 30px;
+    background: url('media/jd-website-design-cover.jpg');
+    background-size: 100%;
+    line-height: 28px;
+    transform: scaleX(-1);
+}
+
+h2{
+    text-align: left;
+    transform: scaleX(-1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+
+#about-me{
+    padding: 10% 30px;
+}
+
+#projects{
+    padding: 10% 30px;
+    background-color: lightgrey;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+p{
+    margin-bottom: 20px; 
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+img{
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+a{
+    margin-bottom: 5%;
+    display: block;
+}
+
+h5{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+svg{
+    width: 40px;
+    height: 40px;
+}
+
+.tech-stack{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tech-icon{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.github-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.github-repo{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
