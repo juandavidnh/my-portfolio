@@ -4,12 +4,14 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #545454;
 }
 
 .main-nav{
     height: 64px;
     width: 100%;
-    background-color: grey;
+    background-color: #7f00ff;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -27,7 +29,7 @@ h1{
     font-family: 'Hammersmith One', sans-serif;
     font-size: 25px;
     letter-spacing: 5px;
-
+    color: white;
 }
 
 .main-nav-el{
@@ -37,6 +39,7 @@ h1{
 
 .hamburger{
     font-size: 25px;
+    color: white;
 }
 
 main{
@@ -56,7 +59,7 @@ h2{
     transform: scaleX(-1);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    
+    font-weight: 400;
 }
 
 #about-me{
@@ -65,7 +68,7 @@ h2{
 
 #projects{
     padding: 10% 30px;
-    background-color: lightgrey;
+    background-color: #efefef;
 }
 
 
@@ -74,19 +77,24 @@ h3{
     text-align: center;
     margin-bottom: 10%;
     font-size: 20px;
+    font-weight: 500;
+    color: white;
+    
 }
 
 p{
     margin-bottom: 20px; 
     font-size: 18px;
-    line-height: 22px;
-    text-align: justify;
+    line-height: 23px;
+    letter-spacing: 1px;
+    text-align: left;
 }
 
 h4{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-bottom: 5%;
+    text-align: center;
 }
 
 img{
@@ -131,4 +139,13 @@ svg{
 .github-repo{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+    text-align: center;;
+}
+
+.sub-heading{
+    background-color: #00d1b2;
+    height: 65px;
+    margin-bottom: 10%;
+    border-radius: 17px;
+    padding-top: 22.5px;
 }
