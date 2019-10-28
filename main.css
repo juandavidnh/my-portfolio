@@ -49,9 +49,10 @@ main{
 header{
     padding: 25% 30px;
     background: url('media/jd-website-design-cover.jpg');
-    background-size: 100%;
+    background-size: cover;
     line-height: 28px;
     transform: scaleX(-1);
+    
 }
 
 h2{
@@ -114,8 +115,8 @@ h5{
 }
 
 svg{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .tech-stack{
@@ -139,7 +140,7 @@ svg{
 .github-repo{
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    text-align: center;;
+    text-align: center;
 }
 
 .sub-heading{
@@ -148,4 +149,117 @@ svg{
     margin-bottom: 10%;
     border-radius: 17px;
     padding-top: 22.5px;
+}
+
+@media screen and (min-width: 760px) {
+
+    h2{
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .project-content-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .project-img{
+        width: 40%;
+        margin-right: 20px;
+        height: 100%;
+    }
+
+    .tech-stack{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .tech-icon{
+        margin-bottom: 20px;
+    }
+   
+    #project-image-1{
+        width: 50%;
+    }
+
+    .sub-heading{
+        margin-bottom: 7%;
+    }
+
+    #about-me{
+        padding: 7% 30px;
+    }
+    
+    #projects{
+        padding: 7% 30px;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+
+    h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    #about-me{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-start;
+        
+    }
+
+    #projects{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+    .sub-heading{
+        width: 30%;
+    }
+
+    .content{
+        width: 65%;
+    }
+
+    .main-nav-el{
+        display: inline-block;
+        font-family: 'Hammersmith One', sans-serif;
+        margin-left: 15px;
+
+    }
+
+    .main-nav-el a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .hamburger{
+        display: none;
+    }
+    
+    .main-nav{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    header{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #about-me{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #projects{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 }
