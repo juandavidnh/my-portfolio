@@ -17,6 +17,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     top: 0;
     left: 0;
     right: 0;
@@ -30,17 +31,41 @@ h1{
     font-size: 25px;
     letter-spacing: 5px;
     color: white;
+    flex-basis: 80%;
 }
 
-.main-nav-el{
+.menu{
     display: none;
-    
+    background-color: #00d1b2;
+    flex-basis: 100%;
+    height: 130px;  
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+
+.main-nav-el{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;;
+}
+
+.hamburger a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: right;
 }
 
 .hamburger{
-    font-size: 25px;
-    color: white;
+    flex-basis: 20%;
 }
+
 
 main{
     padding-top: 64px;
@@ -151,6 +176,28 @@ svg{
     padding-top: 22.5px;
 }
 
+footer{
+    background-color: #7f00ff;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h6{
+    font-family: 'Hammersmith One', sans-serif;
+    line-height: 30px;
+}
+
+footer li{
+    line-height: 22px;
+}
+
+strong{
+    font-weight: 700;
+}
+
 @media screen and (min-width: 760px) {
 
     h2{
@@ -200,6 +247,12 @@ svg{
 
 @media screen and (min-width: 1200px){
 
+    h1{
+        flex-basis: 50%;
+    }
+
+
+
     h2{
         font-size: 40px;
         line-height: 48px;
@@ -228,20 +281,21 @@ svg{
         width: 65%;
     }
 
-    .main-nav-el{
-        display: inline-block;
-        font-family: 'Hammersmith One', sans-serif;
-        margin-left: 15px;
 
+    #nav-elements li{
+        display: inline-block;
     }
+    
 
     .main-nav-el a{
         text-decoration: none;
         color: white;
+        
     }
 
     .hamburger{
         display: none;
+        flex-basis: none;
     }
     
     .main-nav{
@@ -261,5 +315,21 @@ svg{
     #projects{
         padding-left: 60px;
         padding-right: 60px;
+    }
+
+    .menu{
+        flex-basis: 40%;
+        display: block;
+        height: inherit;
+        margin: inherit;
+        text-align: right;
+        background-color:inherit;
+    }
+
+    .main-nav-el{
+        
+        font-family: 'Hammersmith One', sans-serif;
+        margin-left: 15px;
+
     }
 }
