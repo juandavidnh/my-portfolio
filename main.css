@@ -27,12 +27,11 @@ body{
 }
 
 h1{
-    font-family:  sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
     font-size: 25px;
     letter-spacing: 5px;
     color: white;
     flex-basis: 80%;
-
 }
 
 .menu{
@@ -84,7 +83,7 @@ header{
 h2{
     text-align: left;
     transform: scaleX(-1);
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 400;
 }
@@ -100,7 +99,7 @@ h2{
 
 
 h3{
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-bottom: 10%;
     font-size: 20px;
@@ -193,7 +192,6 @@ h6{
 
 footer li{
     line-height: 28px;
-
 }
 
 strong{
@@ -209,7 +207,6 @@ footer a{
     text-decoration: none;
     color: white;
 }
-
 
 @media screen and (min-width: 760px) {
 
@@ -268,7 +265,6 @@ footer a{
     }
     
 
-
 }
 
 
@@ -289,7 +285,6 @@ footer a{
         bottom: 60px;
         right: 60px;
         
-
     }
 
     #about-me{
@@ -338,7 +333,6 @@ footer a{
     }
     header{
         padding: 15% 60px;
-
     }
 
     #about-me{
@@ -366,4 +360,5 @@ footer a{
         margin-left: 15px;
 
     }
+    
 }
