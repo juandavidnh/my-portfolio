@@ -191,7 +191,7 @@ svg{
     height: 50px;
     font-weight: 500;
     padding: 0;
-    background-color: #7f00ff;
+    background-color: #2f00ffdc;
     margin-top: 10px;
     
 }
@@ -217,11 +217,12 @@ svg{
 
 
 .sub-heading{
-    background-color: #00d1b2;
+    background-color: inherit;
     height: 65px;
     margin-bottom: 10%;
     border-radius: 17px;
     padding-top: 22.5px;
+    background-color: #2f00ffdc;;
 }
 
 footer{
