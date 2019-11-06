@@ -41,6 +41,13 @@ h1{
     flex-basis: 80%;
 }
 
+:target:before {
+    content:"";
+    display:block;
+    height: 110px; /* fixed header height*/
+    margin:-90px 0 0; /* negative fixed header height */
+}
+
 .menu{
     display: none;
     background-color: #00d1b2;
@@ -107,7 +114,7 @@ h3{
     text-align: center;
     margin-bottom: 10%;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
     
 }
