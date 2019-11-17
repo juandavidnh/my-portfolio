@@ -105,7 +105,7 @@ h2{
 }
 
 #projects{
-    padding: 10% 30px;
+    padding: 10% 0px 0px 0px;
     background-color: #efefef;
 }
 
@@ -223,7 +223,9 @@ svg{
     margin-bottom: 10%;
     border-radius: 17px;
     padding-top: 22.5px;
-    background-color: #2f00ffdc;;
+    background-color: #2f00ffdc;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 footer{
@@ -258,6 +260,18 @@ footer a{
     color: white;
 }
 
+.project-movie-picker{
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 30px;
+    width: 100%;
+}
+
+#projects .project-cat-quiz, #projects .project-movie-picker{
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
 @media screen and (min-width: 760px) {
 
     h2{
@@ -297,8 +311,16 @@ footer a{
         width: 50%;
     }
 
+    .project-movie-picker #project-image-1, .project-movie-picker #project-image-2{
+        width: 45%;
+    }
+
     .sub-heading{
         margin-bottom: 7%;
+        margin-left:30px !important;
+        margin-right:30px !important;
+        padding-left:0;
+        padding-right:0;
     }
 
     #about-me{
@@ -306,7 +328,7 @@ footer a{
     }
     
     #projects{
-        padding: 7% 30px;
+        padding: 7% 0px 0px 0px;
     }
 
     footer{
@@ -386,20 +408,20 @@ footer a{
         border-radius: 0;
         height: 64px;
         margin-bottom: 0%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
-    #projects .content{
+    #projects .project-cat-quiz, #projects .project-movie-picker {
         width: 100%;
         padding: 60px;
     }
-
-    
 
     #about-me .sub-heading{
         flex-basis: 35%;
     }
 
-    #about-me .content{
+   #about-me .content{
         flex-basis: 60%;
     }
 
