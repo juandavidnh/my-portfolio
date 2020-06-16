@@ -267,11 +267,26 @@ footer a{
     width: 100%;
 }
 
-#projects .project-cat-quiz, #projects .project-movie-picker{
+.project-choretastic{
+    background-color: #efefef;
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 100%;
+}
+
+#projects .project-cat-quiz, #projects .project-movie-picker {
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 50px;
 }
+
+#projects .project-choretastic {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+
 @media screen and (min-width: 760px) {
 
     h2{
@@ -313,6 +328,19 @@ footer a{
 
     .project-movie-picker #project-image-1, .project-movie-picker #project-image-2{
         width: 45%;
+    }
+
+    .project-choretastic #project-image-1, .project-choretastic #project-image-2{
+        width: 45%;
+    }
+
+    .project-images {
+        width: 90%;
+    }
+
+    .project-choretastic #project-image-1, .project-choretastic #project-image-2{
+        width: 45%;
+        height: auto;
     }
 
     .sub-heading{
@@ -412,10 +440,12 @@ footer a{
         margin-right: 0 !important;
     }
 
-    #projects .project-cat-quiz, #projects .project-movie-picker {
+    #projects .project-cat-quiz, #projects .project-movie-picker, #projects .project-choretastic  {
         width: 100%;
         padding: 60px;
     }
+
+
 
     #about-me .sub-heading{
         flex-basis: 35%;
